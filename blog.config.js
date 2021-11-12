@@ -1,8 +1,8 @@
 const BLOG = {
-  title: '塘里1024',
-  author: '塘里',
-  email: 'tlyong1992@hotmail.com',
-  link: 'https://tangly1024.com',
+  title: 'Jacian’s Blog',
+  author: 'Jacian',
+  email: 'jacianliu@gmail.com',
+  link: 'https://jacian.com',
   description: '分享有趣的技术与思考',
   lang: 'zh-CN', // ['zh-CN','en-US']
   notionPageId: process.env.NOTION_PAGE_ID || 'bee1fccfa3bd47a1a7be83cc71372d83', // Important page_id！！！
@@ -12,7 +12,7 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy in a folder
-  since: 2020, // if leave this empty, current year will be used.
+  since: 2019, // if leave this empty, current year will be used.
   postsPerPage: 6, // post counts per page
   sortByDate: false,
   showAbout: true, // WIP
@@ -39,7 +39,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: 'NotionNext', // The repository of store comments
       owner: 'tangly1024',
